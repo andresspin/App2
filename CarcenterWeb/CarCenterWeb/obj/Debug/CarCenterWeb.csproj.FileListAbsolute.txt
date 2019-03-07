@@ -76,4 +76,3 @@ C:\wkp_poli\App2\CarcenterWeb\CarCenterWeb\bin\es\System.Web.WebPages.Deployment
 C:\wkp_poli\App2\CarcenterWeb\CarCenterWeb\bin\es\System.Web.WebPages.Razor.resources.dll
 C:\wkp_poli\App2\CarcenterWeb\CarCenterWeb\obj\Debug\CarCenterWeb.dll
 C:\wkp_poli\App2\CarcenterWeb\CarCenterWeb\obj\Debug\CarCenterWeb.pdb
-C:\wkp_poli\App2\CarcenterWeb\CarCenterWeb\obj\Debug\CarCenterWeb.csproj.CoreCompileInputs.cache

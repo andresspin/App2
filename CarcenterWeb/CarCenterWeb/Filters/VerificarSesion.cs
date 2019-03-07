@@ -19,13 +19,23 @@ namespace CarCenterWeb.Filters
             {
                 //si la peticion viene de un controlador diferente a AccesoController, regresamos al usuario
                 // a la pantalla de Login
-                if(filterContext.Controller is AccesoController == false)
+                if (filterContext.Controller is AccesoController == false)
                 {
                     filterContext.HttpContext.Response.Redirect("~/Acceso/Index");
 
                 }
 
 
+
+            }
+            else {
+
+                if(filterContext.Controller is AccesoController == true)
+                {
+                    filterContext.HttpContext.Response.Redirect("~/Home/(Index");
+
+
+                }
 
             }
             base.OnActionExecuting(filterContext);
